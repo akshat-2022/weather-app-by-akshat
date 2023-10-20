@@ -1,0 +1,12 @@
+<%- include("header") -%>
+
+    <h1 id="Title">Weather App</h1>
+    <form class="alignment" action="/" method="post">
+        <label for="cityInput"><h2>Please enter the name of any city in the world 🌎:</h2></label>
+        <div class="col-sm-2 alignment">
+            <input name="cityInput" type="text" class="form-control" placeholder="City" aria-label="City" required><br />
+          </div>
+
+        <button class="button" name="submit" type="submit"><span>Submit</span></button>
+    </form>
+    <%- include("footer") -%>
